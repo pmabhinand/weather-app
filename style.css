@@ -5,18 +5,26 @@
 
 
 
-.main{
+#main{
     overflow-x: hidden;
     width: 100%;
     height: 100vh;
-    background-image: url('./gallery/pexels-tobias-bjørkli-2113554.jpg');
+    background-image: url('./gallery/forest.jpg');
     background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
+
 .heading{
     color:crimson;
+    font-family: "Diplomata SC", serif;
     font-weight: bold;
-    font-family: 'Rubik Doodle Shadow';
+    font-style: normal;
+    text-shadow: 2px 2px 1px black;
+      
 }
 #refresh{
     height: 30px;
@@ -26,11 +34,6 @@
     background-color:beige;
     color: darkblue;
     border: 1px solid beige;
-}
-.second{
-    text-align: center;
-
-    
 }
 
 .search{
@@ -44,25 +47,46 @@
         
 }
 
+
 #output{
-    text-align: center;
-    padding:20px 100px;
-    margin-top: -20px;
-    border-radius: 10px;
-    font-family: 'Abril Fatface';
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%; 
+    color: white;  
+    text-shadow: 2px 2px 1px black;
+   
 }
-#details{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    box-shadow: 5px 5px 5px gray;
+#output h1{
+  font-family: "Coiny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  
+}
+#output h2{
+    font-family: "Diplomata SC", serif;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+#output h4{
+    font-family: "Diplomata SC", serif;
+    font-weight: bold;
+    font-style: normal; 
+    
 }
 
-#weatherImg{
-    width: 100%;
-    height: 3rem;
-    text-align: center;
-    border: 1px solid red;
+#details{
+    box-shadow: 5px 5px 5px gray;
+    font-family: "Yrsa", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-shadow: none;
+
+
 }
+
 
 
